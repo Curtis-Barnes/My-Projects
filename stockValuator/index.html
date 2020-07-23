@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+ <html lang = "en">
+    <head>
+        <meta charset="utf-8"> 
+        <meta name="Paper" content="?">
+        <meta name="author" content="Curtis Barnes">
+        <title>Stock Valuator</title>
+        <link rel="stylesheet" href="css/style.css"> <!--link to css stylesheet-->
+    </head>
+    <body>
+    	
+    	
+			
+    		<h1>Stock Valuator</h1>
+    		
+    		
+    		<div id="loginForm"> <!--Login information is processed by an external php file when the submit button is pressed -->
+						<br><label id="usernameLabel" for="username">Username:</label>
+  						<input id="username" type="text" name="username">
+  						
+  						<br>
+  					 
+  						<br><label id="passwordLabel" for="password">Password:</label>
+  						<input id="password" type="text" name="password">
+  						
+  						<br>
+							
+						<button id = "loginBtn" class = "formBtn" type="button" value="login" onclick="checkLogin()">Login</button> <!--JavaScript method checks for user info in database-->
+							
+						
+				
+						<script src="javascript/process.js"></script>
+				
+        	</div>
+        	
+        	
+        	
+        	<div id="userStocks">
+        	
+        		<h2 id="usernameH2">userName</h2>
+        		
+        		<button id="myStocks" type="button" value="userStocks" onclick="showMyStocks()">My Stocks</button>
+        		<button id="browseStocks" type="button" value="allStocks" onclick="showAllStocks()">Browse Stocks</button>
+        		
+        		<ul id="stockList">
+        			
+        		</ul>
+        	</div>
+        	
+        	<div id="stockInfo">
+        		<h2 id="companyName">CompanyName</h2>
+        		
+        		<p id="companyId">Company ID:</p>
+        		<p id="currentPrice">Current Price:</p>
+        		<p id="recentChange">Recent Change:</p>
+        		<p id="annualTrend">Annual Trend:</p>
+        		<p id="changedDirection">Recent Changed Direction:</p>
+        		
+        		<button id="addStock" type="button" value="add" onclick="addStock()">Add Stock</button>
+        		<button id="removeStock" type="button" value="remove" onclick="removeStock()">Remove Stock</button>
+        	</div>
+        			
+
+    		
+    	
+    	
+    </body>
+</html>

@@ -1,0 +1,22 @@
+-------------------SERVER SENDING-----------------------
+P: 233
+G: 3
+A: 223
+-------------------MESSAGE RECIEVED-----------------------
+Message Recieved: PRT[W
+Decrypted Message: hello
+-------------------MESSAGE RECIEVED-----------------------
+Message Recieved: ^EQRVS
+Decrypted Message: friend
+-------------------SERVER SENDING-----------------------
+Input: goodbye
+Encrypted Message: _XWSZN]
+-------------------SERVER SENDING-----------------------
+Input: friend
+Encrypted Message: ^EQRVS
+-------------------SERVER SENDING-----------------------
+Input: yes
+Encrypted Message: ARK
+-------------------MESSAGE RECIEVED-----------------------
+Message Recieved: VX
+Decrypted Message: no

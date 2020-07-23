@@ -1,0 +1,1 @@
+Notes: I made a mistake in step 28 and did not realise until later in the assignment. Some of the step 28 files already contain changes implemented in step 30 and other later steps. R0 and R2 use network clauses instead of redistributing into bgp. There are possibly additional differences in the protocol configurations
